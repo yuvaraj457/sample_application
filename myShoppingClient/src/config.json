@@ -1,0 +1,16 @@
+{
+    "apiTarget": "http://localhost:5000",
+    "url" : {
+        "products" : "/products",
+        "productDetails" : "/product-details",
+        "addToCart" : "/add-to-cart",
+        "removeFromCart" : "/remove-from-cart",
+        "user" : "/user",
+        "login" : "/login",
+        "signup" : "/signup",
+        "cartTotalPrice" : "/cart-total-price",
+        "checkout" : "/check-out",
+        "getBillingAddress" : "/get-billing-address",
+        "removeBillingAddress" : "/remove-billing-address"
+    }
+}

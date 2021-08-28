@@ -1,0 +1,253 @@
+.page-container{
+    position: relative;
+    top: 72px;
+}
+.brand-icon{
+    height: 14px;
+    margin-bottom: 3px;
+    box-shadow: 2px 2px 6px gray;
+}
+
+.billing-trash{
+    margin-left: 20px;
+}
+.nav-container{
+    background-image: url('../media/images/bg4.jpg');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.nav-group{
+    position: relative;
+    top: 2px;
+}
+
+.rounded-circle {
+    position: relative;
+    top: 4px;
+    height: 32px;
+    margin-left: 20px;
+}
+
+.carousel-container{
+    margin-bottom: 8px;
+}
+
+
+.carousel-inner img {
+    max-height: 420px;
+}
+
+
+.card-position {
+    margin-top: 20px;
+}
+
+.cart-alert {
+    position: relative;
+    right: 10px;
+    top:20px;
+}
+
+.btn-group{
+    bottom: 10px;
+}
+.cart-button1{
+    width: 86px;
+    height: 32px;
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+    background-color: darkmagenta;
+    border: 0;
+    border-radius: 4px;
+}
+
+.cart-button1:active{
+    background-color: indigo;
+}
+
+.cart-button2:active{
+    background-color: rgb(48, 48, 129) ;
+}
+
+.cart-button2{
+    width: 86px;
+    height: 32px;
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(23, 83, 196);
+    border: 0;
+    border-radius: 4px;
+}
+
+.fa-caret-up{
+    margin-top: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.fa-caret-down{
+    margin-top: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.cart-item-card{
+    border-left: 4px solid blue;
+    border-bottom: 1px solid blue;
+    border-radius: 6px;
+    margin-top: 6px; 
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.content {
+    min-height: 540px;
+    padding-top: 40px;
+    padding-bottom: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.signup-page{
+    background-image: url('../media/images/signupPage2.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.login-page{
+    background-image: url('../media/images/loginPage.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.signup-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0 20px 0;
+}
+
+
+.error-handle,.error-handle-password,.error-handle-confirm-password{
+    position: relative;
+    bottom: 26px;
+    font-family: "Times New Roman", Times, serif;
+    color: red;
+}    
+
+.auth-error{
+    bottom:0;
+}
+
+.error-color{
+    color: green ;
+}
+
+
+/* product cards */
+.product-position{
+    display: flex;
+    align-items: center;
+}
+
+.product-card{
+    max-width: 200px;
+    max-height: 400px;
+}
+.product-row .col{
+    margin-top:10px;
+}
+
+.detail-view-img{
+    height: 400px;
+    width: 400px;
+}
+.media{
+    margin-left: 18px;
+    margin-top: 80px;
+}
+
+.card-title{
+    max-height: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    display: block;
+    line-height: 1em;
+    max-height: 2em;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.product-topic{
+    position: relative;
+    bottom: 30px;
+    font-weight: 900;
+    margin-top: 40px;
+}
+
+
+.product-row{
+    padding-bottom: 40px;
+    padding-left: 20px;
+    box-shadow: 1px 1px 4px grey;
+}
+
+
+.product-star{
+    color: #F39C12;
+}
+
+.card-img-top{
+    height: 180px;
+    cursor: pointer;
+}
+.cart-data{
+    margin: 0px 6px ;
+    padding: 0px 4px;
+    background-color: white;
+    /* border: 2px solid rgb(134, 128, 209); */
+    border-left : 1px solid gray;
+    border-right : 1px solid gray;
+    /* border-radius: 6px; */
+}
+
+.cart-body-text{
+    font-family: 'Times New Roman', Times, serif;
+    /* margin: 0; */
+    max-height: 60px;
+    width: 80px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden
+}
+.cart-price{
+    text-align: center;
+    margin: 20px 0px 0px 20px;
+}
+
+
+.btn-close{
+    position: relative;
+    margin-left: 70px;
+}
+
+.page-footer{
+    padding-left: 60px;
+} 
